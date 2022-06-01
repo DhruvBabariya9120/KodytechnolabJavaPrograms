@@ -1,3 +1,4 @@
+/* This program is find the User input Number is Neon Number or not*/
 package com.kodytechnolab;
 
 import java.util.Scanner;
@@ -11,7 +12,7 @@ public class NeonNumber {
 		System.out.println("Enter the Number : ");
 		int no = sc.nextInt();
 
-		int square = no * no; // declare variable to store the square of no
+		int square = no * no; // declare variable and initialize the square of no
 		int sum = 0;
 
 		// iterate the loop for find the sum of digite

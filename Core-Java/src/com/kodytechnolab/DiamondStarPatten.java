@@ -1,11 +1,12 @@
+/* This Program create a DiamondStar patten */
 package com.kodytechnolab;
 
 public class DiamondStarPatten {
 
 	public static void main(String[] args) {
 
-		int ascii = 65; // declare variable for print character
-		int key = 2; // declare variable to perform operation
+		int ascii = 65; // declare variable and initialize for print character
+		int key = 2; // declare variable and initialize to perform operation
 		for (int i = 0; i <= 10; i++) {
 			int flag = 0;
 			for (int j = 0; j <= 10; j++) {

@@ -1,3 +1,4 @@
+/* This program perform Prime Number Series till the user input number*/
 package com.kodytechnolab;
 
 import java.util.Scanner;
@@ -8,7 +9,7 @@ public class PrimeNumber {
 		Scanner sc = new Scanner(System.in);
 
 		// Taking input from user
-		System.out.println("Enter the no you want to perform Prime Number : ");
+		System.out.println("Enter the number you want to perform Prime Number : ");
 		int no = sc.nextInt();
 
 		// iterate loop for find the Prime Number

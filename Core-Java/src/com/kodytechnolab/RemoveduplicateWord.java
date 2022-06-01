@@ -1,3 +1,4 @@
+/* This program perform Remove duplicate variable in user inputed sentences*/
 package com.kodytechnolab;
 
 import java.util.Scanner;

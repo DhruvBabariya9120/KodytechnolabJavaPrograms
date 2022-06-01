@@ -1,3 +1,4 @@
+/* This program perform user inputed number is weird or not*/
 package com.kodytechnolab;
 
 import java.util.Scanner;

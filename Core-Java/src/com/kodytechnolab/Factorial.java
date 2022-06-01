@@ -1,3 +1,4 @@
+/* This program perform Factorial of a Number*/
 package com.kodytechnolab;
 
 import java.util.Scanner;

@@ -1,3 +1,4 @@
+/* This program perform the Calculator Operation */
 package com.kodytechnolab;
 
 import java.util.Scanner;
@@ -17,14 +18,14 @@ public class Calculater {
 
 		System.out.println("1) + \n2) -\n3) *\n4) / \n5) Exit");
 
-		// Iterate loop while if user can't be input Exit
+		// Iterate loop while if user can't be put input Exit
 		while (true) {
 
 			// Taking user input
 			System.out.println("Enter Operator : ");
 			String ans = sc.next();
 
-			// Performing Operation based on user input
+			// Performing Operation based number user input
 			switch (ans) {
 			case "+":
 				System.out.println("Sum of two Number : " + (firstno + secondno));

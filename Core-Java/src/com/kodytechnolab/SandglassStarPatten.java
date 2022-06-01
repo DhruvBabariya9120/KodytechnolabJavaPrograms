@@ -1,3 +1,4 @@
+/* This program Draw the paten of SandglassStar till user inputed Number */
 package com.kodytechnolab;
 
 import java.util.Scanner;

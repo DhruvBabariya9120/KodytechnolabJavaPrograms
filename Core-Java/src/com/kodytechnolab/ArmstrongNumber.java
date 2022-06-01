@@ -1,3 +1,4 @@
+/* This program Perform The Number is Armstrong or not */
 package com.kodytechnolab;
 
 import java.util.Scanner;
@@ -14,8 +15,8 @@ public class ArmstrongNumber {
 		int no = scan.nextInt();
 
 		double ans = 0; // store answer in the variable
-		int temp = no; // store user no in to temporary variable
-		int tempno = no; // store user no in temporary no variable because check the original number
+		int temp = no; // store user number in to temporary variable
+		int tempno = no; // store user number in temporary number variable because check the original number
 		int reminder;
 		int cnt = 0;
 
@@ -31,7 +32,7 @@ public class ArmstrongNumber {
 			no = no / 10;
 		}
 
-		// check condition reverse no and answer is same or not
+		// check condition reverse number and answer is same or not
 		if (tempno == ans)
 			System.out.println("Number is a Armstrong Number");
 		else

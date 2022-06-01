@@ -1,3 +1,4 @@
+/* This program perform user input string is palindrom or not */
 package com.kodytechnolab;
 
 import java.util.Scanner;

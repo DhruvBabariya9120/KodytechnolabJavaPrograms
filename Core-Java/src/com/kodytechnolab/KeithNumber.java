@@ -1,3 +1,4 @@
+/* This program is find the User input Number is Keith Number or not*/
 package com.kodytechnolab;
 
 import java.util.Scanner;
@@ -13,16 +14,16 @@ public class KeithNumber {
 		System.out.println("Enter the Number : ");
 		int no = sc.nextInt();
 
-		int temp = no; // store the no into temporary variable
+		int temp = no; // store the number into temporary variable
 		int cnt = 0; // count the digite of number
-		int tempno = no; // store no into temporary number for condition check
+		int tempno = no; // store number into temporary number for condition check
 		int flag = 0;
 		// Iterate loop for count the digite of number
 		for (; temp > 0; cnt++) {
 			temp = temp / 10;
 		}
 
-		int no_array[] = new int[cnt]; // Declare the no of digite size Array
+		int no_array[] = new int[cnt]; // Declare the number of digite size Array
 		int ans = 0;
 
 		// Iterate the loop for store digite into array

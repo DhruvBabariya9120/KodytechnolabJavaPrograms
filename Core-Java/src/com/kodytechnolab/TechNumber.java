@@ -1,3 +1,4 @@
+/* This Program perform user inputed number is Tech number or not*/
 package com.kodytechnolab;
 
 import java.util.Scanner;
