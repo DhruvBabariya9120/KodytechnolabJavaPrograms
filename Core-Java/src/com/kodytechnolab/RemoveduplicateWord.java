@@ -1,8 +1,14 @@
-/* This program perform Remove duplicate variable in user inputed sentences*/
 package com.kodytechnolab;
 
 import java.util.Scanner;
 
+/**
+ * 
+ * Developer : Dhruv
+ * Objective : This program perform Remove duplicate variable in user inputed sentences
+ * Date      : Jun 2, 2022
+ * Time      : 11:33:38 AM
+ */
 public class RemoveduplicateWord {
 
 	private static Scanner scan;

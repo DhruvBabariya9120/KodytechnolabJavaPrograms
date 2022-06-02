@@ -1,12 +1,20 @@
-/* This Program create a DiamondStar patten */
 package com.kodytechnolab;
 
+/**
+ * 
+ * Developer : Dhruv 
+ * Objective : This Program create a DiamondStar patten.
+ * Date : Jun 2, 2022 
+ * Time : 11:24:27 AM
+ */
 public class DiamondStarPatten {
 
 	public static void main(String[] args) {
 
-		int ascii = 65; // declare variable and initialize for print character
-		int key = 2; // declare variable and initialize to perform operation
+		// declare variable and initialize for print character
+		int ascii = 65;
+		// declare variable and initialize to perform operation
+		int key = 2;
 		for (int i = 0; i <= 10; i++) {
 			int flag = 0;
 			for (int j = 0; j <= 10; j++) {

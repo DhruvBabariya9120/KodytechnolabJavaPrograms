@@ -1,8 +1,13 @@
-/* This program Draw the paten of SandglassStar till user inputed Number */
 package com.kodytechnolab;
 
 import java.util.Scanner;
-
+/**
+ * 
+ * Developer : Dhruv
+ * Objective : This program Draw the paten of SandglassStar till user inputed Number.
+ * Date      : Jun 2, 2022
+ * Time      : 11:34:16 AM
+ */
 public class SandglassStarPatten {
 
 	public static void main(String[] args) {

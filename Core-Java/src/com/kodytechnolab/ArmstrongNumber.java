@@ -1,8 +1,14 @@
-/* This program Perform The Number is Armstrong or not */
 package com.kodytechnolab;
 
 import java.util.Scanner;
 
+/**
+ * 
+ * Developer : Dhruv
+ * Objective : This program is perform User input Number is Armstrong Number or Not.
+ * Date      : Jun 2, 2022
+ * Time      : 11:23:20 AM
+ */
 public class ArmstrongNumber {
 
 	private static Scanner scan;
@@ -14,9 +20,13 @@ public class ArmstrongNumber {
 		System.out.println("Enter the Number");
 		int no = scan.nextInt();
 
-		double ans = 0; // store answer in the variable
-		int temp = no; // store user number in to temporary variable
-		int tempno = no; // store user number in temporary number variable because check the original number
+		// store answer in the variable
+		double ans = 0;
+		// store user number temporary variable
+		int temp = no;
+		// store user number in temporary number variable because check the original
+		// number
+		int tempno = no;
 		int reminder;
 		int cnt = 0;
 

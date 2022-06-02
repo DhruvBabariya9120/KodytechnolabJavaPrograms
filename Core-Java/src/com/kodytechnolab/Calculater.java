@@ -1,8 +1,14 @@
-/* This program perform the Calculator Operation */
 package com.kodytechnolab;
 
 import java.util.Scanner;
 
+/**
+ * 
+ * Developer : Dhruv
+ * Objective : This program perform the Calculator Operation.
+ * Date      : Jun 2, 2022
+ * Time      : 11:23:52 AM
+ */
 public class Calculater {
 
 	private static Scanner sc;

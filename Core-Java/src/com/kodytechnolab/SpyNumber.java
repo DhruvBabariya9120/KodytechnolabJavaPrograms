@@ -1,8 +1,14 @@
-/* This program is perform User input number is spy number or not*/
 package com.kodytechnolab;
 
 import java.util.Scanner;
 
+/**
+ * 
+ * Developer : Dhruv
+ * Objective : This program is perform User input number is spy number or not.
+ * Date      : Jun 2, 2022
+ * Time      : 11:34:54 AM
+ */
 public class SpyNumber {
 
 	public static void main(String[] args) {

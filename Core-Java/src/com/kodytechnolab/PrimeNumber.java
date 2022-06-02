@@ -1,8 +1,14 @@
-/* This program perform Prime Number Series till the user input number*/
 package com.kodytechnolab;
 
 import java.util.Scanner;
 
+/**
+ * 
+ * Developer : Dhruv
+ * Objective : This program perform Prime Number Series till the user input number.
+ * Date      : Jun 2, 2022
+ * Time      : 11:32:50 AM
+ */
 public class PrimeNumber {
 
 	public static void main(String[] args) {

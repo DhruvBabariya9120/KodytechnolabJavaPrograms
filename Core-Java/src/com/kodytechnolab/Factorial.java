@@ -1,8 +1,15 @@
-/* This program perform Factorial of a Number*/
+
 package com.kodytechnolab;
 
 import java.util.Scanner;
 
+/**
+ * 
+ * Developer : Dhruv
+ * Objective : This program perform Factorial of a Number.
+ * Date      : Jun 2, 2022
+ * Time      : 11:27:00 AM
+ */
 public class Factorial {
 
 	public static void main(String[] args) {

@@ -1,8 +1,14 @@
-/* This Program perform user inputed number is Tech number or not*/
 package com.kodytechnolab;
 
 import java.util.Scanner;
 
+/**
+ * 
+ * Developer : Dhruv
+ * Objective : This Program perform user inputed number is Tech number or not.
+ * Date      : Jun 2, 2022
+ * Time      : 11:36:00 AM
+ */
 public class TechNumber {
 
 	private static Scanner scan;
@@ -14,7 +20,8 @@ public class TechNumber {
 		// Taking input from User
 		System.out.println("Enter the Number: ");
 		int no = scan.nextInt();
-		int temp = no; // Store no into temporary variable
+		// Store no into temporary variable
+		int temp = no;
 		int tempno = no;
 		int cnt = 0;
 		int sum = 0;

@@ -1,8 +1,14 @@
-/* This program perform user input string is palindrom or not */
 package com.kodytechnolab;
 
 import java.util.Scanner;
 
+/**
+ * 
+ * Developer : Dhruv
+ * Objective : This program is find the User input Number is Neon Number or not.
+ * Date      : Jun 2, 2022
+ * Time      : 11:31:07 AM
+ */
 public class PalindromString {
 
 	public static void main(String[] args) {
@@ -13,7 +19,8 @@ public class PalindromString {
 		System.out.println("Enter the String : ");
 		String value = scan.next();
 
-		String Reverse = ""; // store reverse string value
+		// store reverse string value
+		String Reverse = ""; 
 
 		// Iterate the loop for find The Reverse a string
 		for (int i = value.length() - 1; i >= 0; i--) {

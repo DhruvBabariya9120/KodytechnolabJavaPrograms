@@ -1,8 +1,14 @@
-/* This program perform user inputed number is weird or not*/
 package com.kodytechnolab;
 
 import java.util.Scanner;
 
+/**
+ * 
+ * Developer : Dhruv
+ * Objective : This program perform user inputed number is weird or not.
+ * Date      : Jun 2, 2022
+ * Time      : 11:36:38 AM
+ */
 public class WeirdNumberCondition {
 
 	public static void main(String[] args) {
